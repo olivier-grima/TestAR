@@ -10,10 +10,16 @@
 </head>
 <body>
     <h1>Ce site est un test pour la réalité augmentée</h1>
-    <p>modif</p>
+    <p>modifffffs</p>
     <p>j'essaie de faire quelques petites modifs pour voir comment ca fonctionne et si le site est bien hébergé sur github</p>
+    <style>
+        model-viewer#reveal {
+          --poster-color: transparent;
+        }
+    </style>
     <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Avocado/glTF/Avocado.gltf&mode=ar_only#Intent;scheme=https;package=com.google.ar.core;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">Avocado</a>
-    <model-viewer src="assets/Astronaut.glb"
+    <model-viewer id="reveal"
+                  src="assets/Astronaut.glb"
                   ios-src="assets/Astronaut.usdz"
                   alt="A 3D model of an astronaut" 
                   ar ar-modes="webxr scene-viewer quick-look" 
