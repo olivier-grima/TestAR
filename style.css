@@ -20,8 +20,8 @@ model-viewer#reveal {
     border-radius: 18px;
     border: 1px solid #DADCE0;
     position: absolute;
-    top:150px;
-    left: 500px;
+    top:20px;
+    left: 20px;
   }
 
   #ar-button:active {
