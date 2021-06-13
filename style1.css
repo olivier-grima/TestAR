@@ -1,0 +1,9 @@
+.contact-container{
+    background-color: black;
+    position: relative;
+}
+
+.contact-container #phone{
+    position: absolute;
+    
+}
