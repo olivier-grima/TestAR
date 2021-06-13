@@ -15,8 +15,8 @@
     border-radius: 18px;
     border: 1px solid #DADCE0;
     position: absolute;
-    margin-right: 0%;
-    margin-bottom: 0%;
+    margin-left: 50%;
+    margin-top: 50%;
   }
 
   #ar-button:active {
