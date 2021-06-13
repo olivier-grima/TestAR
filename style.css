@@ -18,7 +18,7 @@ model-viewer#reveal {
     line-height: 36px;
     border-radius: 18px;
     border: 1px solid #DADCE0;
-    position: absolute;
+    /*position: absolute;*/
     /*margin-left: 1%;
     margin-top: 30%;*/
   }
