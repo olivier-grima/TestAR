@@ -7,14 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <model-viewer src="assets/Astronaut.glb" ios-src="assets/Astronaut.usdz" poster="assets/Astronaut.png" shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model carousel">
+    <h1>Salut Salut</h1>
+    <model-viewer src="assets/astronaut.glb" poster="assets/astronaut.jpg" shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model carousel">
   
         <button slot="ar-button" id="ar-button">
           View in your space
         </button>
       
         <div id="ar-prompt">
-          <img src="assets/Astronaut.png">
+          <img src="../../assets/hand.png">
         </div>
       
         <button id="ar-failure">
@@ -23,15 +24,15 @@
       
         <div class="slider">
           <div class="slides">
-            <button class="slide selected" onclick="switchSrc(this, 'Chair')" style="background-image: url('assets/Astronaut.png');">
+            <button class="slide selected" onclick="switchSrc(this, 'Chair')" style="background-image: url('../../assets/ShopifyModels/Chair.png');">
       
-            </button><button class="slide" onclick="switchSrc(this, 'Mixer')" style="background-image: url('assets/Astronaut.png');">
+            </button><button class="slide" onclick="switchSrc(this, 'Mixer')" style="background-image: url('../../assets/ShopifyModels/Mixer.png');">
       
-            </button><button class="slide" onclick="switchSrc(this, 'GeoPlanter')" style="background-image: url('assets/Astronaut.png');">
+            </button><button class="slide" onclick="switchSrc(this, 'GeoPlanter')" style="background-image: url('../../assets/ShopifyModels/GeoPlanter.png');">
             
-            </button><button class="slide" onclick="switchSrc(this, 'ToyTrain')" style="background-image: url('assets/Astronaut.png');">
+            </button><button class="slide" onclick="switchSrc(this, 'ToyTrain')" style="background-image: url('../../assets/ShopifyModels/ToyTrain.png');">
             
-            </button><button class="slide" onclick="switchSrc(this, 'Canoe')" style="background-image: url('assets/Astronaut.png');">    
+            </button><button class="slide" onclick="switchSrc(this, 'Canoe')" style="background-image: url('../../assets/ShopifyModels/Canoe.png');">    
           </button></div>
         </div>
       </model-viewer>
