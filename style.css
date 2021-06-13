@@ -19,8 +19,8 @@ model-viewer#reveal {
     border-radius: 18px;
     border: 1px solid #DADCE0;
     position: absolute;
-    margin-left: 1%;
-    margin-top: 30%;
+    /*margin-left: 1%;
+    margin-top: 30%;*/
   }
 
   #ar-button:active {
